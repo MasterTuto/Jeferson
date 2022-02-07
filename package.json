@@ -2,9 +2,9 @@
     "name": "jeff-bot",
     "version": "0.0.0",
     "description": "Jefferson discord bot to managa Sala de cinema room and train my abilities",
-    "main": "index.js",
+    "main": "dist/index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "mocha"
     },
     "author": "",
     "license": "ISC",
@@ -13,7 +13,9 @@
         "prettier": "2.5.1"
     },
     "dependencies": {
+        "discord.js": "^13.6.0",
         "dotenv": "^16.0.0",
+        "mocha": "^9.2.0",
         "moviedb-promise": "^3.1.13"
     }
 }
